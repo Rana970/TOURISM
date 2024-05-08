@@ -13,23 +13,10 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
+
 }
 
-html::-webkit-scrollbar {
-    width: 1rem;
-}
 
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: #29a5a3;
-    border-radius: 5rem;
-}
 
 section {
     padding: 2rem 7%;
