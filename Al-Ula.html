@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about .container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4rem;
+            margin-top: 5rem;
+        }
+        
+        .about .container .image-container .image {
+            border-radius: 1rem;
+            width: 100%;
+            height: 540px;
+        }
+        
+        .about .container .content {
+            flex: 1 1 42rem;
+            margin-bottom: 8rem;
+        }
+        
+        .about .container .content h3 {
+            color: #333;
+            font-size: 4rem;
+            margin-top: .5rem;
+        }
+        
+        .about .container .content p {
+            font-size: 1.4rem;
+            padding: 1rem 0;
+            color: #666;
+            line-height: 2;
+        }
+        
+        .about .container .content ol {
+            font-size: 1.4rem;
+            padding: 1rem 0;
+            color: #666;
+            line-height: 2;
+            margin-left: 15px;
+        }
+        
+        .video-section video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000033;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+            font-size: 15px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #29a5a3;
+        }
+        
+        .p1 {
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Tourism</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="Al-Ula.html">Al-Ula</a>
+            <a href="Al-Disa.html">Al-Disa</a>
+            <a href="Abha_Tourist.html">Abha</a>
+            <a href="group.html">Group</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+
+    </header>
+    <section class="about" id="about" style="margin-top: 50px;">
+
+        <h1 class="heading">about Al-Ula</h1>
+
+        <div class="container">
+
+            <div class="image-container">
+                <img src="images/Al-Ula.jpg" alt="" class="image">
+
+            </div>
+
+            <div class="content">
+                <h3>Al-Ula</h3>
+                <p>Al-Ula An incubator of natural beauty and unique human heritage The history of AlUla is full of many human cultures that flourished thanks to its resources and created civilizations on its land thousands of years ago. Its environment is
+                    characterized by amazing geological diversity, from amazing rock formations between desert valleys, and natural wonders towering above the sand dunes.</p>
+                <h3>Stone toure </h3>
+                <ol>
+                    <li>A tour on the Oasis</li>
+                    <li>Heritage Trail</li>
+                    <li>Another Exhibition</li>
+                    <li>Hot air balloon flights</li>
+                    <li>Stargazing experience</li>
+                    <li>Hidden valley Trail</li>
+                </ol>
+
+            </div>
+            <div class="content">
+
+                <p style="font-size:20px;">Under the clear sky and its sparkling stars, the sweet air of AlUla flows into your soul, filling it with the glow of unquenchable enthusiasm, living exciting adventures and new experiences, and creating unforgettable memories.</p>
+
+                <div class="video-section">
+                    <video controls>
+                    <source src="images/Al-UlaVideo.mp4" type="video/mp4">
+                  </video>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading">Tourism activities in AlUla</h1>
+        <div class="content">
+            <p style="font-size:20px;">AlUla offers its guests a variety of enjoyable experiences with many amazing natural wonders:
+            </p>
+            <br>
+            <table>
+                <tr>
+                    <th>Event name</th>
+                    <th>the time</th>
+                    <th>the price</th>
+                </tr>
+                <tr>
+                    <td>Stone tour</td>
+                    <td>3 hours</td>
+                    <td>Starting from 95 $</td>
+                </tr>
+                <tr>
+                    <td> the Oasis Heriage Trail</td>
+                    <td>An hour and a half</td>
+                    <td>Starting from 35 $</td>
+                </tr>
+                <tr>
+                    <td>Hot air ballon flights</td>
+                    <td>3 hours</td>
+                    <td>Starting from 995$</td>
+                </tr>
+                <tr>
+                    <td>Stargazing experience</td>
+                    <td> 4-3 hours</td>
+                    <td>Starting from 397$</td>
+                </tr>
+                <tr>
+                    <td>Hidden Valley Trail</td>
+                    <td> 3 hours</td>
+                    <td>Starting from 397$</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
